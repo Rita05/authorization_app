@@ -1,0 +1,29 @@
+@reference "../../globals.css";
+
+.input-field {
+	font-size: 16px;
+	// @apply w-full px-3 py-2 border border-gray-700 border-opacity-60 rounded focus: outline-none focus:border-blue-500 bg-transparent text-white transition-colors mt-1;
+}
+
+.btn-primary {
+	@apply w-full py-2 text-white mt-1;
+
+	// &:hover {
+	// 	@apply transform scale-103;
+	// }
+}
+
+
+.recaptcha {
+	@apply mb-5;
+	filter: none;
+	background: white !important;
+	box-sizing: border-box;
+	max-width: none !important;
+	margin-left: auto;
+	margin-right: auto;
+
+	>div>div {
+		@apply mx-auto;
+	}
+}
